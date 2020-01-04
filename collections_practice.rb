@@ -36,6 +36,5 @@ end
 def add_s(array)
   array.collect do|element|
     element[-1] = "s"
-      end
     end
 end
