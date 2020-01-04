@@ -35,6 +35,6 @@ end
 
 def add_s(array)
   array.collect do|element|
-    element.last = "s"
+    element[1] = "s"
     end
 end
