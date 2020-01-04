@@ -26,8 +26,7 @@ def kesha_maker(array)
 end
 
 def find_a(array)
-  input = "a"
-  match = array.select { |a| a.match(input) }
+  match = array.select{|words| words.match("a")}
 end
 
 def sum_array(array)
