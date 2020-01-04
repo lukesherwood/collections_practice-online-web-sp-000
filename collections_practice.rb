@@ -34,7 +34,7 @@ def sum_array(array)
 end
 
 def add_s(array)
-  array.select do|element|
+  array.each do|element|
     next if element == "feet"
     element << "s"
     
