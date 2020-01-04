@@ -35,6 +35,6 @@ end
 
 def add_s(array)
   array.select do|element|
-    element[1] = "s"
+    element[-1] = "s"
     end
 end
