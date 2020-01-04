@@ -34,7 +34,7 @@ def sum_array(array)
 end
 
 def add_s(array)
-  array.each_with_index.select do|element, index|
+  array.select do|element|
     element << "s"
     
     end
