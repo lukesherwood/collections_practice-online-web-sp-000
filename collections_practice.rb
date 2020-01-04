@@ -17,11 +17,14 @@ end
 
 def reverse_array(array)
   array.reverse
-  
 end
 
 def kesha_maker(array)
-  
+  array.each do |i| 
+   new_array = i.split
+   new_array
+   
+    
 end
 
 def find_a(array)
