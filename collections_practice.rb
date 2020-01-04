@@ -23,7 +23,7 @@ def kesha_maker(array)
   array.each do |i| 
     nu_array = []
    nu_array = i.to_a
-   nu_array[2] = "$"
+   nu_array[2] = "$".join
   end
    new array
 end
