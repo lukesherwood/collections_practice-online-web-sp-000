@@ -35,6 +35,7 @@ end
 
 def add_s(array)
   array.select do|element|
+    next if element == "feet"
     element << "s"
     
     end
