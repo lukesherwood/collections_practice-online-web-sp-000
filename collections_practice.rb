@@ -24,7 +24,7 @@ def kesha_maker(array)
     nu_array = []
     nu_array << i.split
     nu_array[2] = "$"
-    nu_array.join
+    
   end
 end
 
