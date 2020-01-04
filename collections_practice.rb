@@ -20,11 +20,8 @@ def reverse_array(array)
 end
 
 def kesha_maker(array)
-  array.each do |string| 
-    nu_array = []
-    nu_array << string.split
-    nu_array[2] = "$"
-    
+  array.select do |string| 
+    string.sub!(\w\w\w/, "$")
   end
 end
 
