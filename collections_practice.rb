@@ -34,11 +34,9 @@ def sum_array(array)
 end
 
 def add_s(array)
-  array.select do|element|
-  if element = "feet"
-    puts "feet"
-  else
+  array.each_with_index.select do|element, index|
     element << "s"
+    
     end
   end
 end
