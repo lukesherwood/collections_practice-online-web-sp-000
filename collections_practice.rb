@@ -21,7 +21,7 @@ end
 
 def kesha_maker(array)
   array.select do |string| 
-    string.sub!(\w\w\w/, "$")
+    new_string = string
   end
 end
 
