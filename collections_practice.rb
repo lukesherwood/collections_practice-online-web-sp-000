@@ -38,4 +38,5 @@ def add_s(array)
   if element = "feet" 
     else element.last = "s"
       end
+    end
 end
