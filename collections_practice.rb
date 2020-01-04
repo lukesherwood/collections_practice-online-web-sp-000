@@ -36,6 +36,7 @@ end
 def add_s(array)
   array.collect do|element|
   if element = "feet" 
+    puts"feet"
     else element.last = "s"
       end
     end
