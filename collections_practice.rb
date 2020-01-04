@@ -21,8 +21,8 @@ end
 
 def kesha_maker(array)
   array.each do |i| 
-   new_array = i.split
-   new_array[2] = "$"
+   nu_array = i.split
+   nu_array[2] = "$"
   end
    new array
 end
