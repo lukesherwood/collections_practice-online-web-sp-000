@@ -38,6 +38,5 @@ def add_s(array)
     next if element == "feet"
     element << "s"
     
-    end
   end
 end
