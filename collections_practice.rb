@@ -26,7 +26,6 @@ def kesha_maker(array)
    nu_array[2] = "$"
    nu_array.join
   end
-   nu_array
 end
 
 def find_a(array)
